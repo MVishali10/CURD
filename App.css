@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  margin: 40px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main h4 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.main-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-input input {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #b1b1b1;
+}
+
+.main-input button {
+  padding: 10px;
+  background: #3d713d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.main-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+}
+.main-ul button{
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
